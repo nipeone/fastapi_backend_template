@@ -1,0 +1,10 @@
+from .service_auth import auth_service, ServiceAuth
+from .service_casbin import casbin_service, ServiceCasbin
+from .service_dept import dept_service, ServiceDept
+from .service_dict_data import dict_data_service, ServiceDictData
+from .service_dict_type import dict_type_service, ServiceDictType
+from .service_login_log import login_log_service, ServiceLoginLog
+from .service_menu import menu_service, ServiceMenu
+from .service_opera_log import opera_log_service, ServiceOperaLog
+from .service_role import role_service, ServiceRole
+from .service_user import user_service, ServiceUser

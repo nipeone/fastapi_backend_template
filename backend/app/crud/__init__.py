@@ -1,0 +1,10 @@
+from .crud_casbin import casbin_dao, CRUDCasbin
+from .crud_dept import dept_dao, CRUDDept
+from .crud_dict_data import dict_data_dao, CRUDDictData
+from .crud_dict_type import dict_type_dao, CRUDDictType
+from .crud_login_log import login_log_dao, CRUDLoginLog
+from .crud_menu import menu_dao, CRUDMenu
+from .crud_opera_log import opera_log_dao, CRUDOperaLog
+from .crud_role import role_dao, CRUDRole
+from .crud_user_social import user_social_dao, CRUDOUserSocial
+from .crud_user import user_dao, CRUDUser
