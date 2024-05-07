@@ -24,11 +24,11 @@ from backend.app.core.path_conf import STATIC_DIR, UPLOAD_DIR
 from backend.app.common.log import log
 from backend.app.common.cache.redis import redis_client
 from backend.app.databases.mysql import create_table
+from backend.app.databases.superuser import initialize_superuser
 from backend.app.middlewares.jwt_auth_middleware import JwtAuthMiddleware
 from backend.app.middlewares.opera_log_middleware import OperaLogMiddleware
 from backend.app.utils.health_check import ensure_unique_route_names, http_limit_callback
 from backend.app.utils.openapi import simplify_operation_ids
-from backend.app.init_superuser import initialize_superuser
 from backend.app.utils.serializers import MsgSpecJSONResponse
 
 @asynccontextmanager

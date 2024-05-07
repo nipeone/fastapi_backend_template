@@ -11,11 +11,12 @@
 import os
 from pathlib import Path
 
+# backend目录
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 ALEMBIC_VER_DIR = os.path.join(BASE_DIR, 'app', 'alembic', 'versions')
 
-# 日志文件路径
+# 日志文件目录
 LOG_DIR = os.path.join(BASE_DIR, 'app', 'log')
 
 ASSETS_DIR = os.path.join(BASE_DIR, 'app', 'assets')
@@ -23,7 +24,7 @@ ASSETS_DIR = os.path.join(BASE_DIR, 'app', 'assets')
 # 静态文件目录
 STATIC_DIR = os.path.join(ASSETS_DIR, 'static')
 
-# 文件上传路径
+# 文件上传目录
 UPLOAD_DIR = os.path.join(ASSETS_DIR, 'upload')
 
 # 离线 IP 数据库路径
